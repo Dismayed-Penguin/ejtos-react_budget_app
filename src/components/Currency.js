@@ -5,10 +5,10 @@ const Currency = () => {
   const {dispatch } = useContext(AppContext);
 
     const changeLocation = (val)=>{
-            dispatch({
-                type: 'CHG_CURRENCY',
-                payload: val,
-            })
+      dispatch({
+          type: 'CHG_CURRENCY',
+          payload: val,
+      })
     }
     
 
